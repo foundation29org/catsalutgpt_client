@@ -44,14 +44,30 @@
         </ul>
       </div>
     </div>
-  <div class="navbar-container pl-0">
+  <!--<div class="navbar-container pl-0">
     <a href="https://foundation29.org/" target="_blank" title="web Fundación 29">
       <img class="d-none d-md-block" width="111px" height="38px" alt="logo Fundación 29" src='assets/img/logo-f29.webp'
         (click)="lauchEvent('LogoFoudnation29');" />
         <img class="d-block d-md-none" width="43px" height="38px" alt="logo Fundación 29" src='assets/img/logo-f29-sm.webp'
         (click)="lauchEvent('LogoFoudnation29');" />
     </a>
-  </div>
+  </div>-->
+  <div class="navbar-container pl-0">
+    <div id="navbarSupportedContent2">
+        <ul class="navbar-nav m-r-0">
+            <li class="nav-item mr-2" ngbDropdown display="dynamic" placement="bottom-right">
+                <a class="position-relative colorlink" id="dropdownLang" ngbDropdownToggle role="button">
+                    <u>{{currentLang}}</u>
+                </a>
+                <div ngbDropdownMenu aria-labelledby="dropdownLang" class="dropdownLang">
+                    <a *ngFor="let lang of langs" class="dropdown-item py-1 lang" href="javascript:;" (click)="ChangeLanguage(lang.code)">
+                        <span>{{lang.name}}</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
   </div>
 </nav>
 <!-- Navbar (Header) Ends -->
