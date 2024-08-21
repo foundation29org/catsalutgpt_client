@@ -8,54 +8,54 @@
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
+            <p>{{'land.aboutUs.p0' | translate }}</p>
+          </span>
+
+          <h1 class="mt-5 primary card-title text-bold-500">
+            {{'land.aboutUs.t1' | translate }} 
+            <hr class="hr-custom">
+          </h1>
+          <span class="text-left row margin-left-0 p-2">
             <p>{{'land.aboutUs.p1' | translate }}</p>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            ¿Qué es GPT-4o? 
-            <hr class="hr-custom">
-          </h1>
-          <span class="text-left row margin-left-0 p-2">
-            <p>GPT-4o es un tipo de modelo lingüístico, es decir, un programa informático capaz de generar textos en lenguaje natural a partir de una entrada. Los modelos lingüísticos se entrenan con grandes cantidades de datos de texto, como libros, artículos, mensajes de redes sociales y sitios web, para aprender los patrones y probabilidades del lenguaje. GPT-4o es uno de los modelos lingüísticos más avanzados hasta la fecha, ya que puede generar textos coherentes y diversos en varios dominios y tareas, como escribir historias, responder preguntas, resumir textos y traducir idiomas. GPT-4o se basa en una arquitectura de red neuronal denominada transformador, que le permite captar dependencias de largo alcance y relaciones complejas entre palabras y frases.</p>
-          </span>
-
-          <h1 class="mt-5 primary card-title text-bold-500">
-            ¿Cuáles son las limitaciones de GPT-4o para uso médico?
+            {{'land.aboutUs.t2' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
             <ul>
-              <li>Calidad y cantidad de los datos: GPT-4o se entrena con una enorme cantidad de datos de texto, pero no todos son relevantes, precisos o fiables para su uso médico. Por ejemplo, algunos datos de texto pueden contener información errónea, sesgos, errores o información obsoleta que pueden inducir a error a GPT-4o o comprometer su rendimiento. Además, algunas enfermedades raras pueden no tener suficientes datos de texto disponibles para entrenar GPT-4o suficientemente, lo que resulta en una baja cobertura o confianza.</li>
-              <li>Cuestiones éticas y regulatorias: GPT-4o no es un dispositivo médico certificado o autorizado, y no pretende sustituir a los médicos humanos ni proporcionar diagnósticos definitivos.  GPT-4o es sólo una herramienta que proporciona sugerencias que puede proporcionar posibles hipótesis basadas en información limitada. Por lo tanto, el uso de GPT-4o con fines médicos puede plantear problemas éticos y legales, como la privacidad, el consentimiento, la responsabilidad, la rendición de cuentas y la confianza. Los usuarios de la GPT-4o deben ser conscientes de estas cuestiones y utilizar CatSalutGPT con precaución y responsabilidad.</li>
-              <li>Generalización y adaptación: GPT-4o es un modelo lingüístico de propósito general, lo que significa que puede generar textos para diversos dominios y tareas, pero puede no estar especializado u optimizado para dominios o tareas médicas específicas. Por ejemplo, GPT-4o puede no ser capaz de captar los matices, la terminología o la lógica del razonamiento médico, o puede no ser capaz de adaptarse a diferentes contextos de pacientes, como la edad, el sexo, el origen étnico o el historial médico. Por lo tanto, es posible que GPT-4o deba ajustarse o personalizarse para situaciones o aplicaciones médicas concretas, lo que puede requerir datos, recursos o conocimientos adicionales.</li>
+              <li>{{'land.aboutUs.p2.1' | translate }}</li>
+              <li>{{'land.aboutUs.p2.2' | translate }}</li>
+              <li>{{'land.aboutUs.p2.3' | translate }}</li>
             </ul>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            ¿Cómo se gestionan estas limitaciones en CatSalutGPT?
+            {{'land.aboutUs.t3' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
             <ul>
-              <li>Reducción de alucinaciones y respuestas erróneas: GPT-4o puede producir alucinaciones o respuestas erróneas, que son textos que no están respaldados por el conocimiento factual. Esto puede ocurrir porque GPT-4o se entrena con un corpus de textos amplio y diverso, que puede contener ruido, errores, incoherencias o sesgos. Además, GPT-4o se basa en un modelo probabilístico, lo que significa que puede generar diferentes salidas para la misma entrada, dependiendo del método de muestreo y del parámetro de temperatura. Por lo tanto, el uso de GPT-4o para el diagnóstico médico puede plantear riesgos de resultados engañosos o inexactos. Para reducir estos riesgos, CatSalutGPT emplea técnicas de prompt engineering y baja temperatura. El prompt engineering es el proceso de diseño de los textos de entrada y salida de GPT-4o para obtener la respuesta deseada. Por ejemplo, CatSalutGPT utiliza prefijos, palabras clave y técnico de formateo para guiar a GPT-4o a generar una lista de diagnósticos diferenciales, en lugar de un texto narrativo. La temperatura baja es un parámetro que controla la aleatoriedad de la salida. Al establecer una temperatura baja, CatSalutGPT hace que la salida sea más determinista y consistente, en lugar de diversa y creativa. Esto puede ayudar a evitar alucinaciones o respuestas erróneas poco probables o inverosímiles. Sin embargo, una temperatura baja también puede reducir la cobertura o la variedad del resultado, lo que puede llevar a omitir algunos diagnósticos raros o complejos. Por lo tanto, la CatSalutGPT debe utilizarse como herramienta complementaria, no como fuente definitiva, para el diagnóstico médico.</li>
-              <li>Gestión de entrada y salida de información: GPT-4o puede generar textos que no sean seguros, apropiados o relevantes para el diagnóstico médico, como información ofensiva, sensible o personal. Esto puede deberse a que GPT-4o no ha sido entrenado ni probado para el diagnóstico médico, y puede no ser consciente de las implicaciones éticas, legales o sociales de sus resultados. Para evitar o mitigar estos problemas, CatSalutGPT emplea técnicas de gestión de entrada y salida de la información. La gestión de entrada es el proceso de filtrado, limpieza o anonimización de los datos de entrada para proteger la privacidad y seguridad del paciente. Por ejemplo, CatSalutGPT no acepta como datos de entrada ningún tipo de información personal identificable, como nombres, direcciones, números de teléfono o datos personales de historiales médicos. La gestión de la salida es el proceso de supervisión, revisión o edición de los datos de salida para garantizar la calidad, la precisión y la seguridad. Además, CatSalutGPT permite al usuario marcar, notificar o corregir cualquier resultado problemático, para proporcionar información y mejorar el sistema. </li>
+              <li>{{'land.aboutUs.p3.1' | translate }}</li>
+              <li>{{'land.aboutUs.p3.2' | translate }}</li>
             </ul>
           </span>
           
           <h1 class="mt-5 primary card-title text-bold-500">
-            ¿Cómo funciona CatSalutGPT?
+            {{'land.aboutUs.t4' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
-            <p>El flujo de trabajo de CatSalutGPT es sencillo:</p>
+            <p>{{'land.aboutUs.p4.1' | translate }}:</p>
             <ul>
-              <li>El médico introduce una breve descripción clínica de los síntomas del paciente. Para proteger la privacidad del paciente, esta descripción no debe contener ningún dato personal identificable.</li>
-              <li>CatSalutGPT procesa esta información de los síntomas utilizando el modelo GPT-4o para generar una lista clasificada de posibles diagnósticos de enfermedades que pueden coincidir con la descripción.</li>
-              <li>Para cada diagnóstico sugerido, el médico puede hacer clic para revelar los síntomas comunes, las presentaciones clínicas típicas y los posibles pasos diagnósticos para esa enfermedad.</li>
-              <li>El médico también puede pedir a CatSalutGPT que proporcione un razonamiento clínico para explicar la probabilidad de cada diagnóstico sugerido.</li>
-              <li>Con esta información adicional sobre cada diagnóstico potencial, el médico puede determinar si está justificada una evaluación adicional o la derivación a un especialista.</li>
+              <li>{{'land.aboutUs.p4.1.1' | translate }}</li>
+              <li>{{'land.aboutUs.p4.1.2' | translate }}</li>
+              <li>{{'land.aboutUs.p4.1.3' | translate }}</li>
+              <li>{{'land.aboutUs.p4.1.4' | translate }}</li>
+              <li>{{'land.aboutUs.p4.1.5' | translate }}</li>
             </ul>
-            <p>El objetivo de CatSalutGPT es proporcionar ayuda para la toma de decisiones clínicas y aumentar el rango de diagnóstico incluyendo posibles enfermedades que los médicos pueden no reconocer inmediatamente basándose únicamente en los síntomas. Sin embargo, no pretende sustituir el asesoramiento médico profesional ni confirmar un diagnóstico real.</p>
+            <p>{{'land.aboutUs.p4.2' | translate }}</p>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
@@ -100,43 +100,43 @@
           </div>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            Datos técnicos 
+            {{'land.aboutUs.t7' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
-            <p>CatSalutGPT está desarrollado íntegramente dentro de la plataforma de servicios en la nube Azure de Microsoft. La arquitectura aprovecha los servicios de Azure OpenAI para acceder al modelo de lenguaje GPT-4o. Todos los componentes de software están desplegados en centros de datos de la Unión Europea, cumpliendo con estrictos estándares de privacidad y seguridad. CatSalutGPT no retiene ni almacena información personal identificable de los usuarios o pacientes. El flujo de información clínica dentro de CatSalutGPT es puramente transaccional, sin persistencia de datos, para proteger la privacidad. La arquitectura serverless de Azure permite escalar los recursos bajo demanda para satisfacer los requerimientos del uso clínico, al tiempo que minimiza los costos operativos.</p>
+            <p>{{'land.aboutUs.p7' | translate }}</p>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            Manejo de los datos de los usuarios
+            {{'land.aboutUs.t8' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
-            <p>CatSalutGPT captura únicamente los datos introducidos por el usuario médico en el campo de texto de síntomas, así como las sugerencias de diagnóstico diferencial generadas por el sistema. También se captura el feedback general del usuario sobre la herramienta y la calidad de los resultados. Los usuarios tienen la opción de dejar un correo de contacto, que se utilizará exclusivamente para fines de mejora del sistema, nunca con propósitos comerciales. Todos los datos de los usuarios son gestionados acorde a los estrictos protocolos de privacidad de Fundación 29 y al Reglamento General de Protección de Datos de la UE. Para cualquier consulta sobre el manejo de datos, los usuarios pueden contactar al Delegado de Protección de Datos de Fundación 29.</p>
+            <p> {{'land.aboutUs.p8' | translate }}</p>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            Es un proyecto de investigación
+            {{'land.aboutUs.t9' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
-            <p>Como parte de nuestros esfuerzos de mejora continua e investigación, Fundación 29 está llevando a cabo un proyecto de investigación para evaluar el rendimiento y el potencial de CatSalutGPT. Este proyecto está aún está en desarrollo y bajo un paraguas de investigación, lo que significa que aún no es una herramienta validada o certificada para uso clínico. Estamos interesados en medir la precisión, usabilidad y viabilidad de CatSalutGPT para su futura implementación en escenarios del mundo real.</p>
-            <p>Para lograrlo, necesitamos su consentimiento y colaboración. Al utilizar CatSalutGPT, acepta compartir sus datos con Foundation 29, la organización que gestiona este proyecto. Foundación 29 tratará tus datos de acuerdo con la normativa RGPD y solo los utilizará para mejorar el proyecto. Sus datos no serán compartidos con terceros sin su permiso explícito. Puede retirar su consentimiento en cualquier momento y solicitar la supresión de sus datos.</p>
-            <p>Además, tendrá acceso a los resultados de este experimento, que se divulgarán según los principios del acceso abierto. Esto significa que podrá acceder, reutilizar y distribuir libremente la información generada por este proyecto, siempre que cite la fuente y a los autores. Creemos que esta es una forma de promover la transparencia, la responsabilidad y la difusión de conocimientos en el campo de las enfermedades raras.</p>
+            <p>{{'land.aboutUs.p9.1' | translate }}</p>
+            <p>{{'land.aboutUs.p9.2' | translate }}</p>
+            <p>{{'land.aboutUs.p9.3' | translate }}</p>
           </span>
 
           <h1 class="mt-5 primary card-title text-bold-500">
-            Limitaciones:
+            {{'land.aboutUs.t10' | translate }}
             <hr class="hr-custom">
           </h1>
           <span class="text-left row margin-left-0 p-2">
             <ul>
-              <li>CatSalutGPT se basa en un modelo de IA, que tiene limitaciones inherentes en cuanto a precisión y capacidad de razonamiento en comparación con los expertos humanos. Las sugerencias pueden ser erróneas o incompletas.</li>
-              <li>La calidad de las sugerencias depende en gran medida de la representatividad de la descripción de los síntomas. Las presentaciones vagas o atípicas pueden dar lugar a malos resultados.</li>
-              <li>CatSalutGPT no está conectado a los historiales médicos de los pacientes ni a otros datos objetivos. Las sugerencias se basan en la descripción inicial de los síntomas realizada por el médico.</li>
-              <li>La herramienta no confirma diagnósticos, ni ordena pruebas, ni prescribe tratamientos, ni sustituye una evaluación clínica adecuada. El criterio del médico es esencial. </li>
+              <li>{{'land.aboutUs.p10.1' | translate }}</li>
+              <li>{{'land.aboutUs.p10.2' | translate }}</li>
+              <li>{{'land.aboutUs.p10.3' | translate }}</li>
+              <li>{{'land.aboutUs.p10.4' | translate }}</li>
             </ul>
-            <p>En resumen, CatSalutGPT es una ayuda experimental para generar sugerencias diagnósticas, pero sus resultados no deben interpretarse como diagnósticos definitivos o consejos médicos. Sigue siendo necesaria una validación clínica adecuada.</p>
+            <p>{{'land.aboutUs.p10.5' | translate }}</p>
           </span>
 
         </div>
