@@ -336,7 +336,15 @@
         "emailquestion": "Enter your email if you would like to receive a response to your comments or be informed of future updates.",
         "thanks": "Thank you for your feedback!",
         "Submitted": "Submitted",
-        "onstarts": "Please, rate the quality by clicking on the stars."
+        "onstarts": "Please, rate the quality by clicking on the stars.",
+        "If you want to add anything else, you can do it here": "If you want to add anything else, you can do it here"
+    },
+    "welcome":{
+        "p1": "Notice: Pilot project “CatSalutGPT_Rare diseases”",
+        "p2": "Experimental tool that uses artificial intelligence with GPT-4o, from OpenAI.",
+        "p3": "In previous entries or searches/queries, and in the possible subsequent redefinition of the same, never use personal data, <strong>only <ins>anonymous data</ins></strong> (those that by themselves do not allow to identify/link a living physical person. <strong>Nor confidential information.</strong>",
+        "p4": "Do not assume any result as true, it may have errors, always supervise. This tool does not make decisions.",
+        "p5": "I have read this text and I understand it."
     },
     "seo": {
         "home": {
