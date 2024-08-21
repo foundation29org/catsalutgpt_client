@@ -326,6 +326,18 @@
         }
       }
     },
+    "feedback": {
+        "t1": "La teva opinió és important per a nosaltres",
+        "subt1": "El teu feedback és essencial per millorar aquesta eina i oferir-te alguna cosa encara millor.",
+        "q1": "Has trobat útil aquesta eina per identificar diagnòstics de malalties?",
+        "q2": "Com valoraries la teva experiència general utilitzant l'eina?",
+        "q3": "Si us plau, deixa qualsevol comentari o suggeriment",
+        "commment": "La teva història és important per a nosaltres! Si la nostra eina t'ha ajudat en el teu viatge diagnòstic, si us plau comparteix el teu testimoni. La teva experiència pot inspirar i ajudar altres persones.",
+        "emailquestion": "Introdueix el teu correu electrònic si vols rebre una resposta als teus comentaris o estar informat de futures actualitzacions.",
+        "thanks": "Gràcies pel teu feedback!",
+        "Submitted": "Enviat",
+        "onstarts": "Si us plau, valora la qualitat fent clic a les estrelles."
+    },
     "seo": {
       "home": {
         "keywords": "diagnòstic, diagnosticar, malaltia rara, GPT, síndrome, malaltia, pronòstic, símptomes, epilèpsia, crisi epilèptica, convulsions, retard en el desenvolupament, pediatria, genètica, neurologia, malaltia genètica",
