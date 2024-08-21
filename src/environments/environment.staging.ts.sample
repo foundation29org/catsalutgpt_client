@@ -1,0 +1,9 @@
+export const environment = {
+  production: true,
+  api: undefined, //Server URL: 'http://<direction>:<port>'
+  blobAccessToken:undefined, // Blob access information: {sasToken:null,blobAccountUrl: 'https://<blob_name>.blob.core.windows.net'}
+  keyCognitiveMicrosoft:undefined, // key Microsoft Cognitive Services
+  keyF29api:undefined, // f29Bio sevice URL
+  f29api: 'undefined', // f29api service URL
+  healthbot: 'undefined' // Azure healthbot service
+};

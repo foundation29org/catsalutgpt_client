@@ -1,0 +1,149 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+}
+
+.not-allowed {
+     pointer-events: auto !important;
+     cursor: default !important;
+}
+
+.custom-navbar{
+  min-height: 4.3rem;
+}
+
+i{
+  font-size: 1rem !important;
+}
+
+.dropdown-toggle::after{
+  //display: none;
+  vertical-align: 0.055em;
+}
+
+.text-logo{
+  position: absolute;
+  top: 2em;
+  font-weight: 500;
+  width: 100px;
+  line-height: 15px;
+  left: 120px;
+}
+
+.text-logo2{
+  position: absolute;
+  top: 2em;
+  font-weight: 500;
+  width: 100px;
+  line-height: 15px;
+  left: 120px;
+}
+
+.text-es{
+  width: 160px;
+}
+
+.donate-a{
+  width: 120px;
+}
+
+@media ( max-width: 991.98px ){
+.navbar-container {
+    width: unset !important;
+  }
+
+  .navbar-header {
+      width: unset !important;
+    }
+
+    .text-logo{
+      font-size: 12px;
+      left: 85px;
+    }
+
+    .navbar .container-fluid{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column !important;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    width: 100%;
+  }
+
+  .navbar .container-fluid{
+    align-items: start !important;
+  }
+  .navbar-toggler {
+    margin-top: 0.5rem !important;
+  }
+  .navbar-container{
+    margin-top: 0.5rem !important;
+  }
+
+  .navbar-nav > li {
+    float: initial !important;
+  }
+
+  .donate-link{
+    margin-bottom: 0.75rem !important;
+    margin-top: 0.75rem !important;
+  }
+
+  .donate-a{
+    width: auto;
+  }
+
+  .menu-items{
+    margin-top: 0.75rem !important;
+  }
+
+  .navbar-collapse{
+    text-align: center !important;
+  }
+
+}
+
+@media (max-width: 604px) {
+  .text-logo{
+    display: block;
+    position: inherit;
+  }
+
+  .text-logo2{
+    display: block;
+    position: inherit;
+  }
+}
+
+@media (max-width: 481px) {
+
+
+  .navbar-header-logos{
+    max-width: 50px;
+  }
+
+  span, i, li > a > u {
+    font-size: 0.7rem !important;
+  }
+
+  .text-logo2{
+    display: block;
+    position: inherit;
+  }
+
+}
+
+@media (max-width: 320px) {
+.logo-header{
+  width: 92px !important;
+  height: 22px !important;
+}
+}
+
+
+

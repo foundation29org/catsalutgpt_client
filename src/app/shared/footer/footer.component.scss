@@ -1,0 +1,20 @@
+.searchTerm {
+  width: 100%;
+  min-height: 150px;
+  height: 150px;
+  border: 3px solid #009fe2;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #009fe2;
+}
+
+.bodyfooter{
+    display: flex;
+  }
+
+  @media ( max-width: 484px ){
+    .bodyfooter{
+        display: block;
+    }
+  }

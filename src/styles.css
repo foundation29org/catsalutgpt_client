@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+
+h4.card-title{
+  text-transform: initial !important;
+  font-weight: 700 !important;
+}
+
+.btn-info {
+  color: #fff !important;
+}
+footer{
+  margin-top: 1em;
+}
+
+.ModalClass-sm .modal-dialog{
+  max-width: 45% !important;
+}
+
+
+.text-decoration-underline{
+  text-decoration: underline !important;
+}
+
+.fijado{
+  position: sticky;
+  top: 80px;
+  height: 100%;
+}
+
+.labelLower{
+  text-transform: lowercase;
+}
+.modal-dialog {
+    max-width: 90% !important;
+}
+
+.swal2-modal .swal2-confirm{
+  background-color: #009fe2 !important;
+}
+
+.swal2-modal .swal2-cancel{
+  background-color: #757575 !important;
+}
+
+.smart-table-container{
+    overflow-x: scroll;
+}
+
+.center-elements{
+  text-align: center;
+}
+
+.right-elements{
+  text-align: right;
+}
+.left-elements{
+  text-align: left;
+}
+
+.almost-full-height-vh{
+  height: 84vh !important;
+}
+
+
+@media ( max-width: 1050px ){
+  .ModalClass-sm .modal-dialog{
+    max-width: 70% !important;
+  }
+}
+
+@media ( max-width: 850px ){
+  .ModalClass-sm .modal-dialog{
+    max-width: 90% !important;
+  }
+}
+
+@media ( max-width: 575px ){
+  .ModalClass-sm .modal-dialog{
+    max-width: 100% !important;
+  }
+}
+
+@media ( max-height: 550px ){
+  .full-height-vh{
+  	height: 100% !important;
+  }
+  .almost-full-height-vh{
+    height: 100% !important;
+  }  
+}
+
+.form .form-actions {
+    border-top: none;
+  }
+
+.bt-n{
+  border-top: none;
+}
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+@media ( max-width: 380px ){
+  .swal2-actions-padding{
+    padding: 10px !important;
+  }
+}

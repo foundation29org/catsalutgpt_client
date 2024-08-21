@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://catsalutgpt.azurewebsites.net/sitemap.xml

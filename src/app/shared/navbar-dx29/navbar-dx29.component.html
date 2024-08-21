@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-md navbar-light bg-faded damemarger custom-navbar">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+      (click)="toggleMenu()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-none d-md-block">
+      <span class="navbar-header-logos">
+        <img *ngIf="isHomePage" width="138px" height="33px" class="logo-header" alt="logo SERMAS" src='assets/img/logo-catsalut.webp'
+          (click)="lauchEvent('Logo');goBackEvent();" />
+        <img *ngIf="!isHomePage" width="138px" height="33px" class="logo-header" alt="logo SERMAS" src='assets/img/logo-catsalut.webp'
+          routerLink="/." (click)="lauchEvent('Logo');" style="cursor: pointer;" />
+      </span>
+    </div>
+    <div class="d-block">
+      <div class="d-sm-block center-elements d-md-none pointer">
+        <img *ngIf="isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo catsalutgpt"
+          (click)="lauchEvent('Logo');goBackEvent();" />
+        <img *ngIf="!isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo catsalutgpt" routerLink="/."
+          (click)="lauchEvent('Logo');" style="cursor: pointer;" />
+      </div>
+      <div [class.collapse]="!isMenuExpanded" [class.show]="isMenuExpanded" class="navbar-collapse"
+        id="navbarSupportedContent">
+        <ul class="navbar-nav m-r-0">
+          <li class="nav-item mr-2">
+            <a class="nav-link" [ngClass]="(!isHomePage)?'primary':'primary text-bold-700'" routerLink="/."
+              (click)="lauchEvent('Page - Home'); goBackEvent();">
+              <span>{{'menu.Dashboard' | translate }}</span>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" [ngClass]="(!isAboutPage)?'primary':'primary text-bold-700'" routerLink="/sobrecatsalutgpt"
+              (click)="lauchEvent('Page - About us')">
+              <span>{{'menu.About us' | translate }}</span>
+            </a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" [ngClass]="(!isF29AboutPage)?'primary':'primary text-bold-700'" routerLink="/sobref29"
+              (click)="lauchEvent('Page - About f29')">
+              <span>{{'menu.About f29' | translate }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <div class="navbar-container pl-0">
+    <a href="https://foundation29.org/" target="_blank" title="web Fundación 29">
+      <img class="d-none d-md-block" width="111px" height="38px" alt="logo Fundación 29" src='assets/img/logo-f29.webp'
+        (click)="lauchEvent('LogoFoudnation29');" />
+        <img class="d-block d-md-none" width="43px" height="38px" alt="logo Fundación 29" src='assets/img/logo-f29-sm.webp'
+        (click)="lauchEvent('LogoFoudnation29');" />
+    </a>
+  </div>
+  </div>
+</nav>
+<!-- Navbar (Header) Ends -->

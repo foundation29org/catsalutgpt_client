@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CatSalutGPT: Software de soporte a la decisión de diagnóstico basado en GPT-4o</title>
+  <meta name="title" content="CatSalutGPT: Software de soporte a la decisión de diagnóstico basado en GPT-4o">
+  <meta name="keywords" content="dx, GPT, CatSalutGPT, enfermedad rara, diagnóstico, genética, médicos, inteligencia artificial, IA, genómica, enfermedad" />
+  <meta name="description" content="CatSalutGPT es un software de soporte a la decisión de diagnóstico basado en GPT-4o. IA que ayuda al diagnóstico de enfermedades. Totalmente gratuito para médicos y pacientes."/>
+  <base href="/"><!--<base href="./">-->
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://www.googleadservices.com">
+  <link rel="preconnect" href="https://googleads.g.doubleclick.net">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://www.google.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="//www.googleadservices.com">
+  <link rel="dns-prefetch" href="//googleads.g.doubleclick.net">
+  <link rel="dns-prefetch" href="//www.google.com">
+  <link rel="dns-prefetch" href="//www.google.com">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script async src="https://kit.fontawesome.com/e0f1c8c0ac.js" crossorigin="anonymous"></script>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900&display=swap" media="print" onload="this.media='all'">
+  <link rel="preload" href="assets/img/oval.svg" as="image">
+  <style type="text/css">
+    .pace .pace-activity {
+      top: 19px;
+      right: 19px;
+      display: none;
+    }
+    .page-loading {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      overflow: hidden;
+      background: rgba(51, 51, 51, 1.00);
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      z-index: -1;
+    }
+    .loading-icon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 38px;
+      height: 38px;
+      margin-left: -19px;
+      margin-top: -19px;
+    }
+    app-root:empty ~ .page-loading {
+      opacity: 1;
+      z-index: 1;
+    }
+  </style>
+  <script type="text/javascript">
+    var isApp = document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1 && location.hostname != "localhost" && location.hostname != "127.0.0.1";
+		if (!isApp){
+			if (location.hostname != "localhost" && location.hostname != "127.0.0.1" && window.location.protocol == "http:") {
+				var restOfUrl = window.location.href.substr(5);
+				window.location = "https:" + restOfUrl;
+			}
+		}
+
+
+    var isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
+    if (!isIE)
+    {
+      var script = document.createElement('script');
+      script.src = 'assets/vendor/pace/pace.min.js';
+      document.head.appendChild(script);
+
+    (function (window) {
+
+      // Initialize PACE
+      window.paceOptions = {
+        document: true,
+        eventLag: true,
+        restartOnPushState: true,
+        restartOnRequestAfter: true,
+        ajax: {
+          trackMethods: [ 'POST','GET']
+        }
+      };
+    })(window);
+
+  }else{
+    // Polyfills DOM4 MouseEvent only on IE11
+    // https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/MouseEvent#Polyfill
+    if (!!window.MSInputMethodContext && !!document.documentMode || document.documentMode === 10) {
+      function MouseEvent(eventType, params) {
+        params = params || { bubbles: false, cancelable: false };
+        var mouseEvent = document.createEvent('MouseEvent');
+        mouseEvent.initMouseEvent(eventType, params.bubbles, params.cancelable, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+
+        return mouseEvent;
+      }
+
+      MouseEvent.prototype = Event.prototype;
+
+      window.MouseEvent = MouseEvent;
+    }
+  }
+  </script>
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4F15ZETSVL"></script>
+<script async>
+  var isApp = document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1 && location.hostname != "localhost" && location.hostname != "127.0.0.1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4F15ZETSVL');
+  
+</script>
+
+</head>
+<body>
+  <app-root></app-root>
+  <div class="page-loading">
+    <img src="assets/img/oval.svg" alt="loading icon" class="loading-icon"  loading="lazy"/>
+  </div>
+  <script defer>
+    (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      var idHotJar= 3892583;
+      h._hjSettings={hjid:idHotJar,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+</body>
+</html>
