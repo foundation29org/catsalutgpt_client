@@ -336,7 +336,15 @@
         "emailquestion": "Introdueix el teu correu electrònic si vols rebre una resposta als teus comentaris o estar informat de futures actualitzacions.",
         "thanks": "Gràcies pel teu feedback!",
         "Submitted": "Enviat",
-        "onstarts": "Si us plau, valora la qualitat fent clic a les estrelles."
+        "onstarts": "Si us plau, valora la qualitat fent clic a les estrelles.",
+        "If you want to add anything else, you can do it here": "Si vols afegir alguna cosa més, pots fer-ho aquí"
+    },
+    "welcome":{
+        "p1": "Avís: Projecte pilot “CatSalutGPT_Malalties rares”",
+        "p2": "Eina experimental que empra intel·ligència artificial amb GPT-4o, d'OpenAI.",
+        "p3": "En les entrades prèvies o cerques/consultes, i en la possible posterior redefinició de les mateixes, mai utilitzar dades personals, <strong>només <ins>dades anònimes</ins></strong> (aquelles que per si mateixes no permeten identificar/vincular una persona física viva. <strong>Tampoc informació confidencial.</strong>",
+        "p4": "No donar per cert cap resultat, pot tenir errors, supervisar sempre. Aquesta eina no pren decisions.",
+        "p5": "He llegit aquest text i ho entenc"
     },
     "seo": {
       "home": {

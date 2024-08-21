@@ -203,7 +203,7 @@
   <div class="modal-body">
     <form class="form" #f="ngForm">
       <div class="form-group">
-        <span *ngIf="lastVote=='up'">Si quiere añadir algo más, puede hacerlo aquí:</span>
+        <span *ngIf="lastVote=='up'">{{'feedback.If you want to add anything else, you can do it here' | translate }}:</span>
         <span *ngIf="lastVote=='down'">{{'land.whynotexpected' | translate }}</span>
         <div>
           <textarea maxlength="2000" #autoajustable id="textareadescr" type="text" name="FeedBack1input" required #FeedBack1input="ngModel" ngModel
@@ -295,10 +295,10 @@
       <div class="card-body col-md-12">
         <div class="row">
           <div class="col-sm-12">
-            <p>Aviso: Proyecto piloto “CatSalutGPT_Enfermedades raras”</p> 
-            <p>Herramienta experimental que emplea inteligencia artificial con GPT-4o, de OpenAI.</p> 
-            <p>En las entradas previas o búsquedas/consultas, y en la posible posterior redefinición de las mismas, nunca utilizar datos personales, <strong>solo <ins>datos anónimos</ins></strong> (aquellos que por sí mismos no permiten identificar/vincular a una persona física viva. <strong>Tampoco información confidencial.</strong></p> 
-            <p>No dar por cierto ningún resultado, puede tener errores, supervisar siempre. Esta herramienta no toma decisiones.</p>
+            <p>{{'welcome.p1' | translate }}</p> 
+            <p>{{'welcome.p2' | translate }}</p> 
+            <p [innerHTML]="'welcome.p3' | translate "></p>
+            <p>{{'welcome.p4' | translate }}</p>
           </div>
         </div>
       </div>
@@ -306,7 +306,7 @@
   </div>
   <div class="modal-footer">
     <div class="form-actions col-md-12 center-elements">
-      <button type="button" class="btn round btn-info float-right" (click)="closewelcome()">He leido este texto y lo entiendo</button>
+      <button type="button" class="btn round btn-info float-right" (click)="closewelcome()">{{'welcome.p5' | translate }}</button>
     </div>
   </div>
 </ng-template>
