@@ -177,10 +177,46 @@ export class UndiagnosedPageComponent implements OnInit, OnDestroy {
             }
 
             }));
-          
+            this.subscribeToEvents();
     }
 
-    loadTranslations() {
+    subscribeToEvents() {
+        this.eventsService.on('changelang', async (lang) => {
+            console.log(lang);
+            this.lang = lang;
+            this.loadTranslations();
+            if (this.currentStep == 2 && this.originalLang != lang) {
+                swal({
+                    title: this.translate.instant("land.Language has changed"),
+                    text: this.translate.instant("land.Do you want to start over"),
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#B30000',
+                    cancelButtonColor: '#B0B6BB',
+                    confirmButtonText: this.translate.instant("generics.Yes"),
+                    cancelButtonText: this.translate.instant("generics.No"),
+                    showLoaderOnConfirm: true,
+                    allowOutsideClick: false,
+                    reverseButtons: true
+                }).then((result) => {
+                    if (result.value) {
+                        this.originalLang = lang;
+                        this.restartInitVars();
+                        this.currentStep = 1;
+                    }
+                });
+            }
+        });
+    }
+
+    restartInitVars() {
+        this.medicalTextOriginal = '';
+        this.copyMedicalText = '';
+        this.topRelatedConditions = [];
+    }
+
+    async loadTranslations() {
+        await this.delay(500);
         this.translate.get('land.Symptoms').subscribe((res: string) => {
             this.symtpmsLabel = res;
         });

@@ -39,7 +39,7 @@ export class jsPDFService {
         // Footer
         var logoHealth = new Image();
         logoHealth.src = "assets/img/logo-foundation-twentynine-footer.png"
-        doc.addImage(logoHealth, 'png', 20, 284, 25, 10);
+        doc.addImage(logoHealth, 'png', 20, 284, 29, 10);
         doc.setFont(undefined, 'normal');
         doc.setFontSize(10);
         doc.setTextColor(51, 101, 138)
@@ -50,7 +50,9 @@ export class jsPDFService {
     private getFormatDate(date) {
         var localeLang = 'en-US';
         if (this.lang == 'es') {
-            localeLang = 'es-ES'
+            localeLang = 'es-ES';
+        } else if (this.lang == 'ca') {
+            localeLang = 'ca-ES';
         }
         return date.toLocaleString(localeLang, { month: 'long' , day: 'numeric', year: 'numeric'});
     }
@@ -146,7 +148,7 @@ export class jsPDFService {
         // Cabecera inicial
         var img_logo = new Image();
         img_logo.src = "assets/img/logo-catsalut.png"
-        doc.addImage(img_logo, 'png', 10, 13, 22, 14);
+        doc.addImage(img_logo, 'png', 10, 13, 40, 10);
         doc.setFont(undefined, 'normal');
         doc.setFontSize(10);
         var actualDate = new Date();
@@ -162,7 +164,7 @@ export class jsPDFService {
        //Add QR
         var img_qr = new Image();
         img_qr.src = "assets/img/logo-foundation-twentynine-footer.png"
-        doc.addImage(img_qr, 'png', 160, 15, 32, 11);
+        doc.addImage(img_qr, 'png', 160, 15, 29, 10);
 
         this.newHeatherAndFooter(doc);
 

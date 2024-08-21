@@ -26,8 +26,11 @@ export class AppComponent implements OnInit{
     //Set toastr container ref configuration for toastr positioning on screen
     constructor(public toastr: ToastsManager, vRef: ViewContainerRef, private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title, public translate: TranslateService, private ngZone: NgZone) {
         this.toastr.setRootViewContainerRef(vRef);
-
-        this.translate.use('es');
+        /*if (sessionStorage.getItem('langcatsaludgpt')) {
+            this.translate.use(sessionStorage.getItem('langcatsaludgpt'));
+        }else{
+            this.translate.use('ca');
+        }*/
 
     }
 
