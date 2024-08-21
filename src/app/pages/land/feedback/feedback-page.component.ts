@@ -109,7 +109,7 @@ export class FeedbackPageComponent implements OnDestroy {
           this.subscription.add( this.http.post(environment.serverapi+'/api/generalfeedback/', value)
           .subscribe( (res : any) => {
             this.sending = false;
-            this.toastr.success('Gracias por tu valoración.', 'Enviado');
+            this.toastr.success(this.translate.instant("feedback.thanks"), this.translate.instant("feedback.Submitted"));
             // Limpie el formulario después de enviar
             this.formulario.reset();
             this.freeTextLength = 0;
@@ -130,7 +130,7 @@ export class FeedbackPageComponent implements OnDestroy {
         } else {
             swal({
                 type: 'error',
-                html: 'Por favor, valore la calidad pulsando en las estrellas.',
+                html: this.translate.instant("feedback.onstarts"),
                 showCancelButton: false,
                 showConfirmButton: true,
                 allowOutsideClick: false

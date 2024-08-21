@@ -326,6 +326,18 @@
       }
     }
   },
+  "feedback":{
+    "t1": "Tu opinión es importante para nosotros",
+    "subt1": "Sus comentarios son esenciales para mejorar esta herramienta y ofrecerle algo aún mejor.",
+    "q1": "¿Le resultó útil esta herramienta para identificar diagnósticos de enfermedades?",
+    "q2": "¿Cómo califica su experiencia general al usar la herramienta?",
+    "q3": "Deje cualquier comentario o sugerencia",
+    "commment": "¡Tu historia nos importa! Si nuestra herramienta lo ha ayudado en su viaje de diagnóstico, comparta su testimonio. Tu experiencia puede inspirar y ayudar a otros.",
+    "emailquestion": "Ingresa tu correo electrónico si deseas recibir una respuesta a tus comentarios o ser informado sobre futuras actualizaciones.",
+    "thanks": "Gracias por tu valoración!",
+    "Submitted": "Enviado",
+    "onstarts": "Por favor, valore la calidad pulsando en las estrellas."
+  },
   "seo":{
     "home":{
       "keywords": "diagnóstico, diagnosticar, enfermedad rara, GPT, síndrome, enfermedad, pronóstico, síntomas, epilepsia, crisis epiléptica, convulsiones, retraso en el desarrollo, pediatría, genética, neurología, enfermedad genética",
