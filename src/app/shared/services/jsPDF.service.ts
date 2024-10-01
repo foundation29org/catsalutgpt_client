@@ -43,7 +43,7 @@ export class jsPDFService {
         doc.setFont(undefined, 'normal');
         doc.setFontSize(10);
         doc.setTextColor(51, 101, 138)
-        doc.textWithLink("https://iasalutajudadx.app", 148, 290, { url: 'https://iasalutajudadx.app' });
+        doc.textWithLink("https://iasalutajudadx.azurewebsites.net", 148, 290, { url: 'https://iasalutajudadx.azurewebsites.net' });
         doc.setTextColor(0, 0, 0);
     }
 
