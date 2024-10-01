@@ -39,7 +39,7 @@ export class NavbarD29Component implements OnDestroy {
           this.isHomePage = true;
           this.isAboutPage = false;
           this.isF29AboutPage = false;
-        } else if (tempUrl.indexOf('/sobrecatsalutgpt') != -1) {
+        } else if (tempUrl.indexOf('/sobreiasalutajudadx') != -1) {
           this.isHomePage = false;
           this.isAboutPage = true;
           this.isF29AboutPage = false;

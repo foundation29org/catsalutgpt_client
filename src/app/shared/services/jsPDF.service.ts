@@ -43,7 +43,7 @@ export class jsPDFService {
         doc.setFont(undefined, 'normal');
         doc.setFontSize(10);
         doc.setTextColor(51, 101, 138)
-        doc.textWithLink("https://catsalutgpt.azurewebsites.net", 148, 290, { url: 'https://catsalutgpt.azurewebsites.net' });
+        doc.textWithLink("https://iasalutajudadx.app", 148, 290, { url: 'https://iasalutajudadx.app' });
         doc.setTextColor(0, 0, 0);
     }
 
@@ -250,7 +250,7 @@ export class jsPDFService {
 
         // Save file
         var date = this.getDate();
-        doc.save('CatSalutGPT_Report_' + date + '.pdf');
+        doc.save('IASalutAjudaDx_Report_' + date + '.pdf');
 
     }
 

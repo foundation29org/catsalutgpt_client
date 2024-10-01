@@ -2,7 +2,7 @@
     "menu": {
         "Dashboard": "Home",
         "Register": "Register",
-        "About us": "About us",
+        "About us": "About IASalutAjudaDx",
         "About f29": "About Foundation 29"
     },
     "registration": {
@@ -38,7 +38,7 @@
         "Unsaved changes will be lost": "Unsaved changes will be lost",
         "Yes, reload": "Yes, reload",
         "Created by": "Created by",
-        "CatSalutGPT support": "CatSalutGPT support"
+        "IASalutAjudaDx support": "IASalutAjudaDx support"
     },
     "navbar": {
         "Toggle navigation": "Toggle navigation"
@@ -126,8 +126,8 @@
         "step5": "DATA TRANSFER",
         "step1-1": "In accordance with current regulations, the interested party is informed that the data provided will be processed by Fundación 29 de Febrero (hereinafter, 'F29'), whose contact details are as follows",
         "step1-2": "Registered office",
-        "step2-1": "When users provide personal data through the forms on the CatSalutGPT website, their personal data will be processed for the following purposes:",
-        "step2-2": "When users provide personal data through the user account creation form, the purpose is to manage the registration and administration of the registered user account in the application. For this purpose, your personal data will be processed until you communicate your wish to unsubscribe from your status as a registered user of CatSalutGPT.",
+        "step2-1": "When users provide personal data through the forms on the IASalutAjudaDx website, their personal data will be processed for the following purposes:",
+        "step2-2": "When users provide personal data through the user account creation form, the purpose is to manage the registration and administration of the registered user account in the application. For this purpose, your personal data will be processed until you communicate your wish to unsubscribe from your status as a registered user of IASalutAjudaDx.",
         "step2-3": "Unless you indicate your will to the contrary, the legal retention periods for personal data indicated above will apply, so it is your responsibility to keep them updated, since they will be used to make communications about registrations, cancellations or modifications of registered accounts.",
         "step3-1": "Your data will be processed on the basis of the execution of the contract in cases of user registration: without the processing of this data we could not carry out the mentioned services.",
         "step4-1": "The interested party has the right to",
@@ -143,10 +143,10 @@
     },
     "dataprocessing": {
         "I agree with the": "I agree with the",
-        "data processing by DX29": "data processing by CatSalutGPT.",
-        "title": "DATA PROCESSING AGREEMENT BY CatSalutGPT",
-        "p1-1": "The service provided by Fundación 29 de Febrero through the CatSalutGPT tool is focused on helping medical and genetic professionals during the disease diagnosis process, reducing time and making it more accurate. Using artificial intelligence algorithms, it helps specialists incorporate patient information to identify symptoms and search for connections between them, guiding them in identifying new symptoms. Finally, CatSalutGPT suggests a ranked list of pathologies for the professional to consider performing new tests and thus confirm the final diagnosis. The algorithms used during this process are periodically improved with the data provided by the specialists.",
-        "p1-2": "Users are specialist professionals, related to medicine and genetics (hereinafter, 'the user' / 'the users'), who want to make use of the service provided by CatSalutGPT. As such, they are DATA CONTROLLERS of their patients' data",
+        "data processing by DX29": "data processing by IASalutAjudaDx.",
+        "title": "DATA PROCESSING AGREEMENT BY IASalutAjudaDx",
+        "p1-1": "The service provided by Fundación 29 de Febrero through the IASalutAjudaDx tool is focused on helping medical and genetic professionals during the disease diagnosis process, reducing time and making it more accurate. Using artificial intelligence algorithms, it helps specialists incorporate patient information to identify symptoms and search for connections between them, guiding them in identifying new symptoms. Finally, IASalutAjudaDx suggests a ranked list of pathologies for the professional to consider performing new tests and thus confirm the final diagnosis. The algorithms used during this process are periodically improved with the data provided by the specialists.",
+        "p1-2": "Users are specialist professionals, related to medicine and genetics (hereinafter, 'the user' / 'the users'), who want to make use of the service provided by IASalutAjudaDx. As such, they are DATA CONTROLLERS of their patients' data",
         "p1-3": "In this way, Fundación 29 will be the DATA PROCESSOR of the data to provide the service for the purpose expressed in the first paragraph.",
         "p1-4": "For the provision of said service, it is necessary for the PROCESSOR to have access to and process personal data of patients",
         "p1-5": "Both parties, CONTROLLER and PROCESSOR, acknowledge complying with all obligations derived from community and national regulations on data protection, especially those relating to the right to information, consent and duty of secrecy, and to the adoption of technical and organizational security measures that guarantee the security of personal data.",
@@ -192,7 +192,7 @@
         "Donate": "Donate"
     },
     "footer": {
-        "Dx29info": "CatSalutGPT is a search and reference tool provided for informational purposes and is not intended to replace the judgment or experience of the clinician. It should not be used to diagnose or treat medical conditions."
+        "Dx29info": "IASalutAjudaDx is a search and reference tool provided for informational purposes and is not intended to replace the judgment or experience of the clinician. It should not be used to diagnose or treat medical conditions."
     },
     "parser": {
         "OcrOnlyTitle": "We have detected that there are images in the text.",
@@ -206,7 +206,7 @@
         "No text has been detected in the file": "No text has been detected in the file."
     },
     "land": {
-        "disclaimer": "<p><strong>CatSalutGPT</strong> is a research experiment that uses a general-purpose artificial intelligence. Specifically, it uses OpenAI's GPT-4o language model as a predictive model for a tool that provides information about rare related diseases. It is designed to provide general information and suggestions based on the symptoms provided. The tool is not intended to replace professional medical advice or support diagnosis, prevention, monitoring, prediction or treatment and should never be used to make diagnostic judgments with real patients. Because AI can give variable results, the accuracy of the tool's diagnosis and suggestions may vary, so it is important to consult a qualified healthcare professional to ensure accurate and appropriate diagnosis. The use of this tool is at the user's own risk and Fundación 29 is not responsible for the consequences or damages that may arise from its use. By using this tool, the user acknowledges that they have read and understood this disclaimer, and any potential risks associated with the use of the artificial intelligence-based tool.</p>",
+        "disclaimer": "<p><strong>IASalutAjudaDx</strong> is a research experiment that uses a general-purpose artificial intelligence. Specifically, it uses OpenAI's GPT-4o language model as a predictive model for a tool that provides information about rare related diseases. It is designed to provide general information and suggestions based on the symptoms provided. The tool is not intended to replace professional medical advice or support diagnosis, prevention, monitoring, prediction or treatment and should never be used to make diagnostic judgments with real patients. Because AI can give variable results, the accuracy of the tool's diagnosis and suggestions may vary, so it is important to consult a qualified healthcare professional to ensure accurate and appropriate diagnosis. The use of this tool is at the user's own risk and Fundación 29 is not responsible for the consequences or damages that may arise from its use. By using this tool, the user acknowledges that they have read and understood this disclaimer, and any potential risks associated with the use of the artificial intelligence-based tool.</p>",
         "check": "Do not show this message again",
         "Recommendations": "For best results, indicate when and why you think the symptoms appeared.",
         "Search": "Search",
@@ -214,12 +214,12 @@
         "required": "You have to enter a text before continuing",
         "requiredMIN5": "You have to enter a text of at least 15 characters before continuing.",
         "charactersleft": "{{value}} characters left.",
-        "searchFile": "You can also upload a complete report. This functionality is in testing and may give unexpected results. CatSalutGPT will suggest the diagnosis that the model considers most appropriate for that patient. To be respectful of data protection law, we do not store personal patient data and the data is deleted at the end of this session. We would be interested in knowing your feedback for future developments.",
+        "searchFile": "You can also upload a complete report. This functionality is in testing and may give unexpected results. IASalutAjudaDx will suggest the diagnosis that the model considers most appropriate for that patient. To be respectful of data protection law, we do not store personal patient data and the data is deleted at the end of this session. We would be interested in knowing your feedback for future developments.",
         "Browse for file": "Browse for file",
         "Accepted files": "Accepted files: pdf, docx, images",
         "error extension": "The uploaded file must have a .pdf, .docx extension or image files",
         "Extracting the text from the document": "Extracting the text from the document",
-        "swal": "CatSalutGPT is calculating. Wait a few seconds for it to finish",
+        "swal": "IASalutAjudaDx is calculating. Wait a few seconds for it to finish",
         "swal2": "We are experiencing high demand, if it takes more than 1 minute, cancel and try again.",
         "q1": "What are the common symptoms?",
         "q2": "Give me more information",
@@ -248,7 +248,7 @@
         "msgtest": "And the patient has these results in a test:",
         "descriptionopt3": "Here you can write guide symptoms or important elements that you have observed in any type of analytical or diagnostic test. You can include any type of information such as symptoms, results, or any other type of biomarker.",
         "Type here": "Type here!",
-        "title": "Enter a brief description of the patient and CatSalutGPT will provide you with a list of possible disease diagnoses.",
+        "title": "Enter a brief description of the patient and IASalutAjudaDx will provide you with a list of possible disease diagnoses.",
         "p1.title": "Examples",
         "p1.subtitle": "Click on the text to use it as an example",
         "p1.1": "The patient is thirteen months old. First focal seizure at three months. Multiple tonic-clonic seizures. Febrile seizures. One status epilepticus at eight months.",
@@ -281,8 +281,8 @@
         "Symptoms": "Symptoms:",
         "Load more": "Load more",
         "aboutUs": {
-            "title": "What is CatSalutGPT?",
-            "p0": "CatSalutGPT is an experimental web tool that uses artificial intelligence to suggest potential disease diagnoses based on symptoms entered by the patient. It is based on GPT-4o, an advanced AI model developed by OpenAI.",
+            "title": "What is IASalutAjudaDx?",
+            "p0": "IASalutAjudaDx is an experimental web tool that uses artificial intelligence to suggest potential disease diagnoses based on symptoms entered by the patient. It is based on GPT-4o, an advanced AI model developed by OpenAI.",
             "btn1": "Visit Foundation 29 website",
             "Who are we": "Visit our website",
             "titlef29": "What is Foundation 29?",
@@ -294,24 +294,24 @@
             "p1": "GPT-4o is a type of language model, which is a computer program capable of generating natural language text based on an input. Language models are trained on large amounts of text data, such as books, articles, social media messages, and websites, to learn the patterns and probabilities of language. GPT-4o is one of the most advanced language models to date, as it can generate coherent and diverse texts in various domains and tasks, such as writing stories, answering questions, summarizing texts, and translating languages. GPT-4o is based on a neural network architecture called a transformer, which allows it to capture long-range dependencies and complex relationships between words and phrases.",
             "t2": "What are the limitations of GPT-4o for medical use?",
             "p2.1": "Quality and quantity of data: GPT-4o is trained on a vast amount of text data, but not all of it is relevant, accurate, or reliable for medical use. For example, some text data may contain misinformation, biases, errors, or outdated information that can mislead GPT-4o or compromise its performance. Additionally, some rare diseases may not have enough text data available to sufficiently train GPT-4o, resulting in low coverage or confidence.",
-            "p2.2": "Ethical and regulatory issues: GPT-4o is not a certified or authorized medical device and does not intend to replace human doctors or provide definitive diagnoses. GPT-4o is merely a tool that provides suggestions that may offer possible hypotheses based on limited information. Therefore, the use of GPT-4o for medical purposes can raise ethical and legal concerns, such as privacy, consent, liability, accountability, and trust. Users of GPT-4o should be aware of these issues and use CatSalutGPT with caution and responsibility.",
+            "p2.2": "Ethical and regulatory issues: GPT-4o is not a certified or authorized medical device and does not intend to replace human doctors or provide definitive diagnoses. GPT-4o is merely a tool that provides suggestions that may offer possible hypotheses based on limited information. Therefore, the use of GPT-4o for medical purposes can raise ethical and legal concerns, such as privacy, consent, liability, accountability, and trust. Users of GPT-4o should be aware of these issues and use IASalutAjudaDx with caution and responsibility.",
             "p2.3": "Generalization and adaptation: GPT-4o is a general-purpose language model, which means it can generate texts for various domains and tasks, but it may not be specialized or optimized for specific medical domains or tasks. For example, GPT-4o may not be able to grasp the nuances, terminology, or logic of medical reasoning, or it may not be able to adapt to different patient contexts, such as age, gender, ethnicity, or medical history. Therefore, GPT-4o may need to be adjusted or customized for specific medical situations or applications, which may require additional data, resources, or expertise.",
-            "t3": "How are these limitations managed in CatSalutGPT?",
-            "p3.1": "Reducing hallucinations and incorrect responses: GPT-4o can produce hallucinations or incorrect responses, which are texts that are not supported by factual knowledge. This can happen because GPT-4o is trained on a broad and diverse corpus of texts, which may contain noise, errors, inconsistencies, or biases. Additionally, GPT-4o relies on a probabilistic model, which means it can generate different outputs for the same input, depending on the sampling method and temperature parameter. Therefore, using GPT-4o for medical diagnosis can pose risks of misleading or inaccurate results. To reduce these risks, CatSalutGPT employs prompt engineering techniques and low temperature. Prompt engineering is the process of designing GPT-4o's input and output texts to obtain the desired response. For example, CatSalutGPT uses prefixes, keywords, and formatting techniques to guide GPT-4o in generating a list of differential diagnoses instead of a narrative text. Low temperature is a parameter that controls the randomness of the output. By setting a low temperature, CatSalutGPT makes the output more deterministic and consistent, rather than diverse and creative. This can help avoid hallucinations or highly unlikely or implausible incorrect responses. However, low temperature can also reduce the coverage or variety of the output, which may result in omitting some rare or complex diagnoses. Therefore, CatSalutGPT should be used as a complementary tool, not as a definitive source, for medical diagnosis.",
-            "p3.2": "Managing input and output information: GPT-4o can generate texts that are not safe, appropriate, or relevant for medical diagnosis, such as offensive, sensitive, or personal information. This can happen because GPT-4o has not been trained or tested for medical diagnosis and may not be aware of the ethical, legal, or social implications of its outputs. To prevent or mitigate these issues, CatSalutGPT employs input and output management techniques. Input management is the process of filtering, cleaning, or anonymizing the input data to protect patient privacy and security. For example, CatSalutGPT does not accept any personally identifiable information as input data, such as names, addresses, phone numbers, or personal medical records. Output management is the process of monitoring, reviewing, or editing the output data to ensure quality, accuracy, and safety. Additionally, CatSalutGPT allows the user to flag, report, or correct any problematic results, to provide feedback and improve the system.",
-            "t4": "How does CatSalutGPT work?",
-            "p4.1": "The workflow of CatSalutGPT is simple:",
+            "t3": "How are these limitations managed in IASalutAjudaDx?",
+            "p3.1": "Reducing hallucinations and incorrect responses: GPT-4o can produce hallucinations or incorrect responses, which are texts that are not supported by factual knowledge. This can happen because GPT-4o is trained on a broad and diverse corpus of texts, which may contain noise, errors, inconsistencies, or biases. Additionally, GPT-4o relies on a probabilistic model, which means it can generate different outputs for the same input, depending on the sampling method and temperature parameter. Therefore, using GPT-4o for medical diagnosis can pose risks of misleading or inaccurate results. To reduce these risks, IASalutAjudaDx employs prompt engineering techniques and low temperature. Prompt engineering is the process of designing GPT-4o's input and output texts to obtain the desired response. For example, IASalutAjudaDx uses prefixes, keywords, and formatting techniques to guide GPT-4o in generating a list of differential diagnoses instead of a narrative text. Low temperature is a parameter that controls the randomness of the output. By setting a low temperature, IASalutAjudaDx makes the output more deterministic and consistent, rather than diverse and creative. This can help avoid hallucinations or highly unlikely or implausible incorrect responses. However, low temperature can also reduce the coverage or variety of the output, which may result in omitting some rare or complex diagnoses. Therefore, IASalutAjudaDx should be used as a complementary tool, not as a definitive source, for medical diagnosis.",
+            "p3.2": "Managing input and output information: GPT-4o can generate texts that are not safe, appropriate, or relevant for medical diagnosis, such as offensive, sensitive, or personal information. This can happen because GPT-4o has not been trained or tested for medical diagnosis and may not be aware of the ethical, legal, or social implications of its outputs. To prevent or mitigate these issues, IASalutAjudaDx employs input and output management techniques. Input management is the process of filtering, cleaning, or anonymizing the input data to protect patient privacy and security. For example, IASalutAjudaDx does not accept any personally identifiable information as input data, such as names, addresses, phone numbers, or personal medical records. Output management is the process of monitoring, reviewing, or editing the output data to ensure quality, accuracy, and safety. Additionally, IASalutAjudaDx allows the user to flag, report, or correct any problematic results, to provide feedback and improve the system.",
+            "t4": "How does IASalutAjudaDx work?",
+            "p4.1": "The workflow of IASalutAjudaDx is simple:",
             "p4.1.1": "The doctor inputs a brief clinical description of the patient's symptoms. To protect patient privacy, this description should not contain any personally identifiable data.",
-            "p4.1.2": "CatSalutGPT processes this symptom information using the GPT-4o model to generate a ranked list of possible disease diagnoses that may match the description.",
+            "p4.1.2": "IASalutAjudaDx processes this symptom information using the GPT-4o model to generate a ranked list of possible disease diagnoses that may match the description.",
             "p4.1.3": "For each suggested diagnosis, the doctor can click to reveal common symptoms, typical clinical presentations, and potential diagnostic steps for that disease.",
-            "p4.1.4": "The doctor can also ask CatSalutGPT to provide clinical reasoning to explain the likelihood of each suggested diagnosis.",
+            "p4.1.4": "The doctor can also ask IASalutAjudaDx to provide clinical reasoning to explain the likelihood of each suggested diagnosis.",
             "p4.1.5": "With this additional information about each potential diagnosis, the doctor can determine whether further evaluation or referral to a specialist is warranted.",
-            "p4.2": "The goal of CatSalutGPT is to provide decision support and expand the diagnostic range by including possible diseases that doctors may not immediately recognize based on symptoms alone. However, it is not intended to replace professional medical advice or confirm an actual diagnosis.",
+            "p4.2": "The goal of IASalutAjudaDx is to provide decision support and expand the diagnostic range by including possible diseases that doctors may not immediately recognize based on symptoms alone. However, it is not intended to replace professional medical advice or confirm an actual diagnosis.",
             "t5": "Clinical studies",
-            "p5": "Sant Joan de Déu Hospital has conducted a comprehensive clinical study evaluating the performance of CatSalutGPT compared to highly qualified medical professionals for both common and rare diseases. The results of this study indicate that the performance of CatSalutGPT is equivalent to that of a qualified medical professional. You can find more details about this study at this link:",
-            "t6": "Technical details on CatSalutGPT accuracy",
+            "p5": "Sant Joan de Déu Hospital has conducted a comprehensive clinical study evaluating the performance of IASalutAjudaDx compared to highly qualified medical professionals for both common and rare diseases. The results of this study indicate that the performance of IASalutAjudaDx is equivalent to that of a qualified medical professional. You can find more details about this study at this link:",
+            "t6": "Technical details on IASalutAjudaDx accuracy",
             "p6.1": "Rigorous evaluations ensure that AI diagnostic tools are reliable for real-world medical use.",
-            "p6.2": "CatSalutGPT [3], a diagnostic support tool based on the GPT-4 AI model family, has shown promising results in diagnosing rare diseases. When several available models were tested on real-world rare disease cases from the RAMEDIS dataset:",
+            "p6.2": "IASalutAjudaDx [3], a diagnostic support tool based on the GPT-4 AI model family, has shown promising results in diagnosing rare diseases. When several available models were tested on real-world rare disease cases from the RAMEDIS dataset:",
             "p6.2.1": "Claude 3 Opus performed best among previously tested models, achieving 55% strict accuracy (correct diagnosis as first suggestion) and 70% top-5 accuracy (correct diagnosis among top five suggestions)",
             "p6.3": "The new state-of-the-art models, GPT-4o and Claude 3.5 Sonnet, are currently being evaluated [4]. Initial results on the RAMEDIS dataset suggest these models may offer slight improvements:",
             "p6.3.1": "GPT-4o: ~56% strict accuracy, ~68% top-5 accuracy",
@@ -322,30 +322,30 @@
             "p6.7": "Here are some initial results of GPT-4o and Claude 3.5 Sonnet compared to other models from our latest paper:",
             "p6.8": "In this graph, the green and orange bars correspond respectively to strict accuracy (probability of getting the first diagnosis right) and top-5 accuracy (probability of getting it right among the first five diagnoses).",
             "p6.9": "Additionally, the black line is the difference in accuracy between common diseases (above) and rare diseases (below).",
-            "p6.10": "It is crucial to emphasize that CatSalutGPT is still in development and is intended as a decision support tool, not as a replacement for professional medical judgment [1][5]. The tool aims to assist healthcare professionals by generating diagnostic hypotheses based on patient symptoms and clinical data, potentially reducing time to diagnosis for rare and common diseases [2][5]. Further validation on real clinical data and comparison with human expert diagnoses is needed to fully assess its performance and potential impact on patient care [1][4]. We are also conducting these studies in hospitals and the first results will be published soon.",
+            "p6.10": "It is crucial to emphasize that IASalutAjudaDx is still in development and is intended as a decision support tool, not as a replacement for professional medical judgment [1][5]. The tool aims to assist healthcare professionals by generating diagnostic hypotheses based on patient symptoms and clinical data, potentially reducing time to diagnosis for rare and common diseases [2][5]. Further validation on real clinical data and comparison with human expert diagnoses is needed to fully assess its performance and potential impact on patient care [1][4]. We are also conducting these studies in hospitals and the first results will be published soon.",
             "citations": "References",
             "t7": "Datos técnicos",
-            "p7": "CatSalutGPT está desarrollado íntegramente dentro de la plataforma de servicios en la nube Azure de Microsoft. La arquitectura aprovecha los servicios de Azure OpenAI para acceder al modelo de lenguaje GPT-4o. Todos los componentes de software están desplegados en centros de datos de la Unión Europea, cumpliendo con estrictos estándares de privacidad y seguridad. CatSalutGPT no retiene ni almacena información personal identificable de los usuarios o pacientes. El flujo de información clínica dentro de CatSalutGPT es puramente transaccional, sin persistencia de datos, para proteger la privacidad. La arquitectura serverless de Azure permite escalar los recursos bajo demanda para satisfacer los requerimientos del uso clínico, al tiempo que minimiza los costos operativos.",
+            "p7": "IASalutAjudaDx está desarrollado íntegramente dentro de la plataforma de servicios en la nube Azure de Microsoft. La arquitectura aprovecha los servicios de Azure OpenAI para acceder al modelo de lenguaje GPT-4o. Todos los componentes de software están desplegados en centros de datos de la Unión Europea, cumpliendo con estrictos estándares de privacidad y seguridad. IASalutAjudaDx no retiene ni almacena información personal identificable de los usuarios o pacientes. El flujo de información clínica dentro de IASalutAjudaDx es puramente transaccional, sin persistencia de datos, para proteger la privacidad. La arquitectura serverless de Azure permite escalar los recursos bajo demanda para satisfacer los requerimientos del uso clínico, al tiempo que minimiza los costos operativos.",
             "t8": "Manejo de los datos de los usuarios",
-            "p8": "CatSalutGPT captura únicamente los datos introducidos por el usuario médico en el campo de texto de síntomas, así como las sugerencias de diagnóstico diferencial generadas por el sistema. También se captura el feedback general del usuario sobre la herramienta y la calidad de los resultados. Los usuarios tienen la opción de dejar un correo de contacto, que se utilizará exclusivamente para fines de mejora del sistema, nunca con propósitos comerciales. Todos los datos de los usuarios son gestionados acorde a los estrictos protocolos de privacidad de Fundación 29 y al Reglamento General de Protección de Datos de la UE. Para cualquier consulta sobre el manejo de datos, los usuarios pueden contactar al Delegado de Protección de Datos de Fundación 29.",
+            "p8": "IASalutAjudaDx captura únicamente los datos introducidos por el usuario médico en el campo de texto de síntomas, así como las sugerencias de diagnóstico diferencial generadas por el sistema. También se captura el feedback general del usuario sobre la herramienta y la calidad de los resultados. Los usuarios tienen la opción de dejar un correo de contacto, que se utilizará exclusivamente para fines de mejora del sistema, nunca con propósitos comerciales. Todos los datos de los usuarios son gestionados acorde a los estrictos protocolos de privacidad de Fundación 29 y al Reglamento General de Protección de Datos de la UE. Para cualquier consulta sobre el manejo de datos, los usuarios pueden contactar al Delegado de Protección de Datos de Fundación 29.",
             "t9": "Es un proyecto de investigación",
-            "p9.1": "Como parte de nuestros esfuerzos de mejora continua e investigación, Fundación 29 está llevando a cabo un proyecto de investigación para evaluar el rendimiento y el potencial de CatSalutGPT. Este proyecto está aún está en desarrollo y bajo un paraguas de investigación, lo que significa que aún no es una herramienta validada o certificada para uso clínico. Estamos interesados en medir la precisión, usabilidad y viabilidad de CatSalutGPT para su futura implementación en escenarios del mundo real.",
-            "p9.2": "Para lograrlo, necesitamos su consentimiento y colaboración. Al utilizar CatSalutGPT, acepta compartir sus datos con Foundation 29, la organización que gestiona este proyecto. Foundación 29 tratará tus datos de acuerdo con la normativa RGPD y solo los utilizará para mejorar el proyecto. Sus datos no serán compartidos con terceros sin su permiso explícito. Puede retirar su consentimiento en cualquier momento y solicitar la supresión de sus datos.",
+            "p9.1": "Como parte de nuestros esfuerzos de mejora continua e investigación, Fundación 29 está llevando a cabo un proyecto de investigación para evaluar el rendimiento y el potencial de IASalutAjudaDx. Este proyecto está aún está en desarrollo y bajo un paraguas de investigación, lo que significa que aún no es una herramienta validada o certificada para uso clínico. Estamos interesados en medir la precisión, usabilidad y viabilidad de IASalutAjudaDx para su futura implementación en escenarios del mundo real.",
+            "p9.2": "Para lograrlo, necesitamos su consentimiento y colaboración. Al utilizar IASalutAjudaDx, acepta compartir sus datos con Foundation 29, la organización que gestiona este proyecto. Foundación 29 tratará tus datos de acuerdo con la normativa RGPD y solo los utilizará para mejorar el proyecto. Sus datos no serán compartidos con terceros sin su permiso explícito. Puede retirar su consentimiento en cualquier momento y solicitar la supresión de sus datos.",
             "p9.3": "Además, tendrá acceso a los resultados de este experimento, que se divulgarán según los principios del acceso abierto. Esto significa que podrá acceder, reutilizar y distribuir libremente la información generada por este proyecto, siempre que cite la fuente y a los autores. Creemos que esta es una forma de promover la transparencia, la responsabilidad y la difusión de conocimientos en el campo de las enfermedades raras.",
             "t10": "Limitaciones",
-            "p10.1": "CatSalutGPT se basa en un modelo de IA, que tiene limitaciones inherentes en cuanto a precisión y capacidad de razonamiento en comparación con los expertos humanos. Las sugerencias pueden ser erróneas o incompletas.",
+            "p10.1": "IASalutAjudaDx se basa en un modelo de IA, que tiene limitaciones inherentes en cuanto a precisión y capacidad de razonamiento en comparación con los expertos humanos. Las sugerencias pueden ser erróneas o incompletas.",
             "p10.2": "La calidad de las sugerencias depende en gran medida de la representatividad de la descripción de los síntomas. Las presentaciones vagas o atípicas pueden dar lugar a malos resultados.",
-            "p10.3": "CatSalutGPT no está conectado a los historiales médicos de los pacientes ni a otros datos objetivos. Las sugerencias se basan en la descripción inicial de los síntomas realizada por el médico.",
+            "p10.3": "IASalutAjudaDx no está conectado a los historiales médicos de los pacientes ni a otros datos objetivos. Las sugerencias se basan en la descripción inicial de los síntomas realizada por el médico.",
             "p10.4": "La herramienta no confirma diagnósticos, ni ordena pruebas, ni prescribe tratamientos, ni sustituye una evaluación clínica adecuada. El criterio del médico es esencial.",
-            "p10.5": "En resumen, CatSalutGPT es una ayuda experimental para generar sugerencias diagnósticas, pero sus resultados no deben interpretarse como diagnósticos definitivos o consejos médicos. Sigue siendo necesaria una validación clínica adecuada."
+            "p10.5": "En resumen, IASalutAjudaDx es una ayuda experimental para generar sugerencias diagnósticas, pero sus resultados no deben interpretarse como diagnósticos definitivos o consejos médicos. Sigue siendo necesaria una validación clínica adecuada."
         },
         "diagnosed": {
             "timeline": {
                 "title": "We're going to help you build a timeline of your symptoms. This data can improve the management of your disease and help other patients like you in their diagnostic odyssey. There are two simple steps:",
-                "subtitlea": "In this report, the CatSalutGPT user describes the patient's symptoms with the aim of improving doctor-patient communication.",
+                "subtitlea": "In this report, the IASalutAjudaDx user describes the patient's symptoms with the aim of improving doctor-patient communication.",
                 "subtitleb": "It is recommended to bring the report to the next medical visit so that both the patient and the doctor can help to specify the",
                 "subtitlec": "contents more precisely.",
-                "subtitle1": "This report has been generated with CatSalutGPT, an artificial intelligence tool for diagnostic assistance, through the",
+                "subtitle1": "This report has been generated with IASalutAjudaDx, an artificial intelligence tool for diagnostic assistance, through the",
                 "subtitle2": "precision symptomatological description developed by the provider Fundación 29 de Febrero (www.foundation29.org).",
                 "subtitle3": "Together we accelerate the process of diagnosing rare diseases and their treatment in an easy and simple way.",
                 "footer1": "We are a non-profit organization that designs and creates tools for patients to manage their own data,",
@@ -373,7 +373,7 @@
         "If you want to add anything else, you can do it here": "If you want to add anything else, you can do it here"
     },
     "welcome":{
-        "p1": "Notice: Pilot project “CatSalutGPT_Rare diseases”",
+        "p1": "Notice: Pilot project “IASalutAjudaDx_Rare diseases”",
         "p2": "Experimental tool that uses artificial intelligence with GPT-4o, from OpenAI.",
         "p3": "In previous entries or searches/queries, and in the possible subsequent redefinition of the same, never use personal data, <strong>only <ins>anonymous data</ins></strong> (those that by themselves do not allow to identify/link a living physical person. <strong>Nor confidential information.</strong>",
         "p4": "Do not assume any result as true, it may have errors, always supervise. This tool does not make decisions.",
@@ -382,8 +382,8 @@
     "seo": {
         "home": {
             "keywords": "diagnosis, diagnose, rare disease, GPT, syndrome, disease, prognosis, symptoms, epilepsy, epileptic seizure, seizures, developmental delay, pediatrics, genetics, neurology, genetic disease",
-            "description": "CatSalutGPT is a decision support software for diagnosis based on GPT-4o. AI that helps in disease diagnosis. Completely free for doctors and patients.",
-            "title": "CatSalutGPT: decision support for diagnosis based on GPT-4o"
+            "description": "IASalutAjudaDx is a decision support software for diagnosis based on GPT-4o. AI that helps in disease diagnosis. Completely free for doctors and patients.",
+            "title": "IASalutAjudaDx: decision support for diagnosis based on GPT-4o"
         }
     },
     "cookie": {
