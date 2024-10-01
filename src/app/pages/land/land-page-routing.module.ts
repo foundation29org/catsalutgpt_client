@@ -13,11 +13,11 @@ const routes: Routes = [
         path: '.',
         component: UndiagnosedPageComponent,
         data: {
-          title: 'CatSalutGPT'
+          title: 'IASalutAjudaDx'
         },
       },
       {
-        path: 'sobrecatsalutgpt',
+        path: 'sobreiasalutajudadx',
         component: AboutUsPageComponent,
         data: {
           title: 'menu.About us'

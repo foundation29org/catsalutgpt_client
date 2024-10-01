@@ -15,9 +15,9 @@
     </div>
     <div class="d-block">
       <div class="d-sm-block center-elements d-md-none pointer">
-        <img *ngIf="isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo catsalutgpt"
+        <img *ngIf="isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo IASalutAjudaDx"
           (click)="lauchEvent('Logo');goBackEvent();" />
-        <img *ngIf="!isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo catsalutgpt" routerLink="/."
+        <img *ngIf="!isHomePage" class="mt-1 logo-header" width="138px" height="33px" src='assets/img/logo-catsalut.webp' alt="logo IASalutAjudaDx" routerLink="/."
           (click)="lauchEvent('Logo');" style="cursor: pointer;" />
       </div>
       <div [class.collapse]="!isMenuExpanded" [class.show]="isMenuExpanded" class="navbar-collapse"
@@ -30,7 +30,7 @@
             </a>
           </li>
           <li class="nav-item mr-2">
-            <a class="nav-link" [ngClass]="(!isAboutPage)?'primary':'primary text-bold-700'" routerLink="/sobrecatsalutgpt"
+            <a class="nav-link" [ngClass]="(!isAboutPage)?'primary':'primary text-bold-700'" routerLink="/sobreiasalutajudadx"
               (click)="lauchEvent('Page - About us')">
               <span>{{'menu.About us' | translate }}</span>
             </a>
