@@ -94,6 +94,8 @@ export class NavbarD29Component implements OnDestroy {
       var actualLang = sessionStorage.getItem('langcatsaludgpt');
       if (actualLang == lang.code) {
         this.currentLang = lang.code;
+        var eventsLang = this.inj.get(EventsService);
+        eventsLang.broadcast('changelang', lang.code);
       }
     }
   }
@@ -102,8 +104,8 @@ export class NavbarD29Component implements OnDestroy {
     this.translate.use(language);
     sessionStorage.setItem('langcatsaludgpt', language);
     this.searchLangName(language);
-    var eventsLang = this.inj.get(EventsService);
-    eventsLang.broadcast('changelang', language);
+    /*var eventsLang = this.inj.get(EventsService);
+    eventsLang.broadcast('changelang', language);*/
   }
 
   ToggleClass() {
