@@ -8,6 +8,7 @@ import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import { LangService } from 'app/shared/services/lang.service';
+import { EventsService } from 'app/shared/services/events.service';
 import swal from 'sweetalert2';
 
 
@@ -24,13 +25,13 @@ export class AppComponent implements OnInit{
   private ticking: boolean = false;
   private isOpenSwal: boolean = false;
     //Set toastr container ref configuration for toastr positioning on screen
-    constructor(public toastr: ToastsManager, vRef: ViewContainerRef, private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title, public translate: TranslateService, private ngZone: NgZone) {
+    constructor(public toastr: ToastsManager, vRef: ViewContainerRef, private router: Router, private activatedRoute: ActivatedRoute, private titleService: Title, public translate: TranslateService, private ngZone: NgZone, private eventsService: EventsService) {
         this.toastr.setRootViewContainerRef(vRef);
-        /*if (sessionStorage.getItem('langcatsaludgpt')) {
+        if (sessionStorage.getItem('langcatsaludgpt')) {
             this.translate.use(sessionStorage.getItem('langcatsaludgpt'));
         }else{
             this.translate.use('ca');
-        }*/
+        }
 
     }
 
@@ -58,7 +59,26 @@ export class AppComponent implements OnInit{
       document.addEventListener('touchstart', this.onTouchStart.bind(this), { passive: true });
       document.addEventListener('touchmove', this.onTouchMove.bind(this), { passive: false });
 
+
+      this.eventsService.on('changelang', async (lang) => {
+        await this.delay(500);
+        this.updateTitle();
+       });
+
+       this.updateTitle();
+
      }
+
+     updateTitle(){
+      const titulo = this.translate.instant(this.tituloEvent);
+      this.titleService.setTitle(titulo);
+     }
+
+     delay(ms: number) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+  
 
      private onScroll() {
       this.scrollPosition = window.pageYOffset;
